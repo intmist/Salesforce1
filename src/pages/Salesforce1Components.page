@@ -1,0 +1,21 @@
+<apex:page showheader="false" doctype="html-5.0" sidebar="false"
+	controller="Salesforce1Components" title="Salesforce1 Tags">
+	<head>
+<script type="text/javascript"
+	src="https://ap1.salesforce.com/auraFW/javascript/dndaeldUZEJpQnBycVlFam53SzZaQQ/aura_prod.js?aura.fwuid=dndaeldUZEJpQnBycVlFam53SzZaQQ" />
+<apex:stylesheet value="{!$Resource.sfonecss}" />
+	</head>
+	<apex:form >
+		<apex:outputLabel value="This is a label*" />
+
+		<apex:inputField styleclass="sf1input" value="{!opp.Name}" />
+
+		<apex:inputField value="{!opp.StageName}" />
+
+		<input type="date" value="{!opp.closeDate}" />
+
+		<apex:inputfield value="{!opp.closeDate}" />
+
+		<input type="checkbox">A checkbox</input>
+	</apex:form>
+</apex:page>
